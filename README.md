@@ -5,5 +5,5 @@ Learning JavaScript by creating a Google Chrome extension.
 The purpose of this extension is to get the key codes used in javascript from the keyboard events.
 
 
-[logo]: /res/js-keycode-icon.png "js-keycode-logo"
+[logo]: /res/js-keycode-logo.png "js-keycode-logo"
 
