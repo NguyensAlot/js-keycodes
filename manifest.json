@@ -7,11 +7,11 @@
   "icons": {
     "16": "/res/js-keycode-icon16.png",
     "48": "/res/js-keycode-icon48.png",
-    "128": "/res/js-keycode-icon.png128"
+    "128": "/res/js-keycode-icon128.png"
   },
 
   "browser_action": {
-    "default_icon": "/res/js-keycode-icon128.png",
+    "default_icon": "/res/js-keycode-icon16.png",
     "default_popup": "/view/index.html"
   },
 
