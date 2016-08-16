@@ -3,7 +3,7 @@
   "name": "JS Keycodes",
   "version": "1.1",
 
-  "description": "Easy. Quick. Clean. Get quick access to JavaScript keycodes with this extension.",
+  "description": "Easy. Quick. Clean. Get access to JavaScript keycodes with this extension.",
   "icons": {
     "16": "/res/js-keycode-icon16.png",
     "48": "/res/js-keycode-icon48.png",
