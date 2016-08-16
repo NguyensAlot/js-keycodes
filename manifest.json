@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "JS Keycodes",
-  "description": "This extension is meant to get the keycodes used in javascript",
+  "description": "Easy, quick, clean. This chrome extension allows quick access to JavaScript keycodes",
   "version": "1.0",
 
   "browser_action": {

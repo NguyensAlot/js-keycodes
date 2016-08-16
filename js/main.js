@@ -2,6 +2,7 @@
  * Created by Anthony on 8/15/2016.
  */
 
+// TODO: add the ability to see non-character keys pressed
 function initialize() {
     // text box
     var userInput = document.getElementById("userInput");
@@ -12,19 +13,19 @@ function initialize() {
         // erase the previous char
         userInput.value = "";
         // display key down key code
-        document.getElementById("keydown_event").innerHTML = "KD: " + e.keyCode;
+        document.getElementById("keydown_event").innerHTML = e.keyCode;
     }, false);
 
     // key press
     userInput.addEventListener("keypress", function(e) {
         // display key press key code
-        document.getElementById("keypress_event").innerHTML = "KP: " + e.keyCode;
+        document.getElementById("keypress_event").innerHTML = e.keyCode;
     }, false);
 
     // key up
     userInput.addEventListener("keyup", function(e) {
         // display key up key code
-        document.getElementById("keyup_event").innerHTML = "KU: " + e.keyCode;
+        document.getElementById("keyup_event").innerHTML = e.keyCode;
     }, false);
 
 }

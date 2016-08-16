@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>JS Keycode</title>
-    <script src="../js/main.js"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 <body>
-    <div>
-        <input id="userInput" type="text" placeholder="Type for keycode" autofocus>
+    <div id="wrapper">
+        <!--title-->
+        <h2>JS Keycode</h2>
+        <!--character input-->
+        <input id="userInput" type="text" placeholder="type here" autofocus>
+        <!--display keycodes-->
         <table>
-            <!--on key press-->
             <tr>
-                <td id="keydown_event">KD: </td>
+                <th class="tdLabel">Key Down</th>
+                <th class="tdLabel">Key Press</th>
+                <th class="tdLabel">Key Up</th>
             </tr>
-            <!--on key down-->
             <tr>
-                <td id="keypress_event">KP: </td>
-            </tr>
-            <!--on key up-->
-            <tr>
-                <td id="keyup_event">KU: </td>
+                <td id="keydown_event"></td>
+                <td id="keypress_event"></td>
+                <td id="keyup_event"></td>
             </tr>
         </table>
     </div>
