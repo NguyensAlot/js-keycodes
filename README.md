@@ -1,5 +1,3 @@
-Learning JavaScript by creating a Google Chrome extension.
-
 # js-keycodes ![alt tag][logo]
 
 The purpose of this extension is to get the key codes used in JavaScript from the keyboard events.
