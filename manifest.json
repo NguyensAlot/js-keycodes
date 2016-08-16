@@ -3,7 +3,7 @@
 
   "name": "JS Keycodes",
   "description": "Easy, quick, clean. This chrome extension allows quick access to JavaScript keycodes",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_action": {
     "default_icon": "/res/js-keycode-icon.png",

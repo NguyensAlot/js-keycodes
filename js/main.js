@@ -3,6 +3,9 @@
  */
 
 // TODO: add the ability to see non-character keys pressed
+/**
+ * Function to be called when app loads. Used to add event listeners.
+ * */
 function initialize() {
     // text box
     var userInput = document.getElementById("userInput");
